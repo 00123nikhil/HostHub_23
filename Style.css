@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins' sans-serif;
 }
 
 :root {
@@ -165,6 +165,173 @@ nav ul li a:hover {
   background-color: white;
   color: black;
 }
+
+
+/*  First-Feature Section  */
+
+.Feature-container{
+  padding: 40px 25px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main-feature{
+  padding: 50px 80px;
+}
+
+.Feature-container h1{
+  font-size:30px;
+  margin-bottom: 1rem;
+}
+
+.Feature-container p{
+  margin-bottom: 2rem; ;
+}
+span{
+  color: #6247ea;
+  font-weight: 600;
+}
+
+/* Message card */
+
+.message-card{
+  display: flex;
+  justify-content:space-around;
+  font-size: 1rem;
+  gap: 25px;
+  padding-top: 85px;
+}
+
+.message{
+  padding:60px 10px;
+  border-radius: 6px;
+  border: 0.1px solid #777777;
+}
+.message:hover{
+  box-shadow: 0px 0px 5px #777777;
+  border: none;
+}
+
+/* Second Features */
+
+.details-card{
+  display: flex;
+  font-size: 1rem;
+  padding-top: 85px;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.details{
+  flex-basis: 1000px;
+  padding:50px 35px;
+  border-radius: 6px;
+  border: 0.1px solid #777777;
+  text-align: start;
+  box-shadow: 0px 0px 5px #777777;
+}
+.details:hover{
+  box-shadow: 6px 6px 6px  #6247ea;
+  transition:  0.10s ;
+  border: none;
+}
+.cost{
+  font-size: 40px;
+  color: black;
+}
+
+.details p{
+  color:#777777;
+}
+
+/* New Message Section */
+
+.feature-msg{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+ background-color: #ec9d5f;
+}
+
+.msg h1{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+
+}
+.msg p{
+  color:white;
+  font-size: 16px;
+  padding: 20px 100px;
+}
+.btn-first{
+  padding: 10px 30px;
+  color:black;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+
+.btn-first:hover{
+  background-color:#6247ea;
+  color: white;
+}
+
+
+/* FeedBack Sections */
+
+
+.feedback{
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 40px;
+  gap:25px;
+  align-items: center;
+  text-align: start;
+}
+
+.feed1{
+  padding: 20px;
+  width: 400px;
+}
+
+.feed1 p{
+  color: #777777;
+  padding-top: 4px;
+}
+.feed1 h4{
+  color: #777777;
+  position: relative;
+  bottom: 40px;
+}
+
+/* Top Services  */
+
+
+/* Blog message */
+
+.blog{
+  padding: 100px;
+}
+
+.card{
+  height: 50vh;
+  width: 30%;
+  text-align: start;
+  padding: 40px 15px;
+
+}
+
+.card p{
+  color: #777777;
+}
+.card h1{
+  font-size: 1.5rem;
+}
+
 
 /* -----footer-------- */
 footer {
