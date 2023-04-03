@@ -9,7 +9,7 @@ https://preview.colorlib.com/theme/hosthub/index.html
 The following contributors have contributed to the project:
 
 - [Nikhil Borse]
-- [Suraj Chadhary]
+- [Suraj Chaudhary]
 
 If you'd like to become a collaborator on the project, please reach out before fork or contributing with us.
 
