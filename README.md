@@ -8,8 +8,8 @@ https://preview.colorlib.com/theme/hosthub/index.html
 ## Collaborators
 The following contributors have contributed to the project:
 
-- [Nikhil Borse]
-- [Suraj Chaudhary]
+- [Nikhil Borse](https://www.linkedin.com/in/nikhil-borse00123/)
+- [Suraj Chaudhary](https://www.linkedin.com/in/suraj-chaudhary-4406401b4/)
 
 If you'd like to become a collaborator on the project, please reach out before fork or contributing with us.
 
