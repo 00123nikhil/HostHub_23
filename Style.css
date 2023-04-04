@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins' sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -165,56 +165,63 @@ nav ul li a:hover {
   background-color: white;
   color: black;
 }
-
+.inner-rows:hover > .box span {
+  color: black;
+}
 
 /*  First-Feature Section  */
 
-.Feature-container{
+.Feature-container {
   padding: 40px 25px;
   text-align: center;
   margin-top: 2rem;
 }
 
-.main-feature{
+.main-feature {
   padding: 50px 80px;
 }
 
-.Feature-container h1{
-  font-size:30px;
+.Feature-container h1 {
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 
-.Feature-container p{
-  margin-bottom: 2rem; ;
+.Feature-container p {
+  margin-bottom: 2rem;
 }
-span{
+span {
   color: #6247ea;
   font-weight: 600;
 }
 
 /* Message card */
 
-.message-card{
+.message-card {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   font-size: 1rem;
   gap: 25px;
   padding-top: 85px;
 }
 
-.message{
-  padding:60px 10px;
+.message {
+  padding: 60px 10px;
   border-radius: 6px;
-  border: 0.1px solid #777777;
+  box-shadow: 2px 2px 5px grey;
 }
-.message:hover{
-  box-shadow: 0px 0px 5px #777777;
-  border: none;
+.message:hover {
+  box-shadow: 5px 5px 15px #777777;
 }
-
+.box2 {
+  background-color: #ec9d5f;
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+}
 /* Second Features */
 
-.details-card{
+.details-card {
   display: flex;
   font-size: 1rem;
   padding-top: 85px;
@@ -222,116 +229,125 @@ span{
   justify-content: space-between;
 }
 
-.details{
+.details {
   flex-basis: 1000px;
-  padding:50px 35px;
+  padding: 50px 35px;
   border-radius: 6px;
-  border: 0.1px solid #777777;
   text-align: start;
-  box-shadow: 0px 0px 5px #777777;
-}
-.details:hover{
-  box-shadow: 6px 6px 6px  #6247ea;
-  transition:  0.10s ;
   border: none;
+  box-shadow: 2px 2px 5px grey;
 }
-.cost{
+.details:hover {
+  box-shadow: 5px 10px 10px grey;
+  transition: 0.1s;
+  border-top: 3px solid blue;
+  color: blue;
+}
+.details:hover > .cost {
+  color: blue;
+}
+.cost {
   font-size: 40px;
   color: black;
 }
 
-.details p{
-  color:#777777;
+.details p {
+  color: #777777;
 }
 
 /* New Message Section */
 
-.feature-msg{
+.feature-msg {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 50vh;
- background-color: #ec9d5f;
+  background-color: #ec9d5f;
 }
 
-.msg h1{
+.msg h1 {
   color: white;
   font-size: 2.5rem;
   font-weight: 600;
-
 }
-.msg p{
-  color:white;
+.msg p {
+  color: white;
   font-size: 16px;
   padding: 20px 100px;
 }
-.btn-first{
+.btn-first {
   padding: 10px 30px;
-  color:black;
+  color: black;
   font-weight: 600;
   border-radius: 6px;
   border: none;
   font-size: 16px;
 }
 
-
-.btn-first:hover{
-  background-color:#6247ea;
+.btn-first:hover {
+  background-color: #6247ea;
   color: white;
 }
 
-
 /* FeedBack Sections */
 
-
-.feedback{
+.feedback {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 150px 40px;
-  gap:25px;
+  gap: 15px;
   align-items: center;
   text-align: start;
 }
 
-.feed1{
+.feed1 {
   padding: 20px;
   width: 400px;
 }
 
-.feed1 p{
+.feed1 p {
   color: #777777;
   padding-top: 4px;
+  font-weight: 300;
 }
-.feed1 h4{
+.feed1 h4 {
   color: #777777;
   position: relative;
   bottom: 40px;
+  font-weight: 400;
 }
 
-/* Top Services  */
-
-
+.feed1:hover {
+  color: green;
+}
 /* Blog message */
 
-.blog{
+.blog {
   padding: 100px;
 }
 
-.card{
+.card {
   height: 50vh;
   width: 30%;
   text-align: start;
   padding: 40px 15px;
-
 }
 
-.card p{
+.card p {
   color: #777777;
 }
-.card h1{
+.card h1 {
   font-size: 1.5rem;
 }
 
+/* --client logos------ */
+.client-logos {
+  display: flex;
+  justify-content: center;
+  gap: 08rem;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
 
 /* -----footer-------- */
 footer {
@@ -378,6 +394,7 @@ p {
   color: white;
   border: none;
   outline: none;
+  margin-left: 20px;
 }
 /* row3 */
 .cols img {
@@ -407,4 +424,6 @@ p {
   margin-right: 05px;
   background-color: #262626;
   font-size: 14px;
+  padding: 12px;
+  border-radius: 7px;
 }
