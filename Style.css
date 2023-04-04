@@ -172,17 +172,16 @@ nav ul li a:hover {
 /*  First-Feature Section  */
 
 .Feature-container {
-  padding: 40px 25px;
   text-align: center;
   margin-top: 2rem;
 }
 
 .main-feature {
-  padding: 50px 80px;
+  padding: 30px 60px;
 }
 
 .Feature-container h1 {
-  font-size: 30px;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 
@@ -208,9 +207,12 @@ span {
   padding: 60px 10px;
   border-radius: 6px;
   box-shadow: 2px 2px 5px grey;
+  transition: 1s;
 }
 .message:hover {
   box-shadow: 5px 5px 15px #777777;
+  transform: scale(1.1);
+  z-index: 1;
 }
 .box2 {
   background-color: #ec9d5f;
@@ -221,22 +223,45 @@ span {
 }
 /* Second Features */
 
+.second-msg{
+  text-align: center;
+}
+
+.second-msg h1{
+  font-size: 2.2rem;
+  padding-bottom: 10px;
+}
+
 .details-card {
   display: flex;
   font-size: 1rem;
-  padding-top: 85px;
-  gap: 50px;
-  justify-content: space-between;
+  padding-top: 50px;
+  height: 700px;
+  gap: 20px;
+  justify-content: space-around;
 }
 
 .details {
-  flex-basis: 1000px;
-  padding: 50px 35px;
+  padding: 20px 50px;
   border-radius: 6px;
   text-align: start;
   border: none;
+  height: 500px;
   box-shadow: 2px 2px 5px grey;
 }
+
+.btn4{
+  background-color: #6247ea;
+  color: white;
+  display: none;
+  border-radius: 6px;
+  font-weight: 300;
+  font-size:20px;
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
 .details:hover {
   box-shadow: 5px 10px 10px grey;
   transition: 0.1s;
@@ -245,6 +270,10 @@ span {
 }
 .details:hover > .cost {
   color: blue;
+}
+
+.details:hover > .btn4{
+  display: block;
 }
 .cost {
   font-size: 40px;
@@ -258,10 +287,11 @@ span {
 /* New Message Section */
 
 .feature-msg {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 50vh;
+  height: 65vh;
   background-color: #ec9d5f;
 }
 
@@ -322,15 +352,25 @@ span {
 }
 /* Blog message */
 
+.blog-msg{
+  text-align: center;
+  padding: 30px;
+}
+.blog-msg h1{
+  font-size: 2.2rem;
+  padding-bottom: 10px;
+}
+
+
 .blog {
-  padding: 100px;
+  padding-inline: 90px;
 }
 
 .card {
   height: 50vh;
   width: 30%;
   text-align: start;
-  padding: 40px 15px;
+  padding: 15px ;
 }
 
 .card p {
@@ -351,7 +391,8 @@ span {
 
 /* -----footer-------- */
 footer {
-  height: 500px;
+  height:400px;
+
   background-color: #04091e;
   color: #fff;
 }
@@ -408,7 +449,6 @@ p {
   justify-content: space-around;
   align-content: center;
   gap: 100px;
-  height: 100px;
   width: 100%;
   flex-direction: row;
 }
